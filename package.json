@@ -1,4 +1,13 @@
 {
+  "architect": {
+    "app": "aws-lite-example",
+    "tables": {
+      "cats": {
+        "pk": "*",
+        "sk": "**"
+      }
+    }
+  },
   "scripts": {
     "test": "node --test"
   },
